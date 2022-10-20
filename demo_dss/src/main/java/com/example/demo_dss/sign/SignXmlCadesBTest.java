@@ -80,7 +80,7 @@ public class SignXmlCadesBTest {
 	
 			// end::demo[]
 			
-			signedDocument.save("./signed_xml_document.xml");
+			signedDocument.save("./signed_xml_document.xml.p7m");
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
